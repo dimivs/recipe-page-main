@@ -95,6 +95,7 @@
         color:hsl(24, 5%, 18%); 
         font-size: 16px;
         line-height: 2;
+        font-weight: lighter;
            
       }
       
@@ -146,6 +147,10 @@
 
       td{
       border-bottom: 1px solid  hsl(30, 54%, 90%);
+     }
+
+     .grams{
+      color:  hsl(14, 45%, 36%);;
      }
 
       .preptime{
@@ -258,11 +263,12 @@
         font-family: "outfit"; 
         color:hsl(24, 5%, 18%); 
         font-size: 16px;
-        line-height: 2;
+        line-height: 1;
         background-color:  hsl(30, 54%, 90%);
         padding: 8rem;
         display: flex;
         justify-content: center;
+        font-weight: lighter;
            
       }
 
@@ -283,6 +289,7 @@
       .preph2{
         color: hsl(332, 51%, 32%);
         font-family: "outfit";
+        margin-bottom: 1rem;
       }
 
       ul,ol{
@@ -316,8 +323,16 @@
         border-collapse: collapse;
       }
 
+     
+
       td{
       border-bottom: 1px solid  hsl(30, 54%, 90%);
+      padding: 1rem;
+     
+     }
+
+     .grams{
+      color:  hsl(14, 45%, 36%);;
      }
 
       .preptime{
